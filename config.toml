@@ -1,0 +1,6 @@
+LogLevel = "debug"
+
+[CoinMarketCap]
+APIKey = "b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c"     # CoinMarketCap API sandbox key
+APIUrl = "https://sandbox-api.coinmarketcap.com"    # CoinMarketCap API sandbox URL
+TimeoutSec = 10
