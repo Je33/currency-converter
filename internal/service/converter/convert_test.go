@@ -1,8 +1,8 @@
 package converter
 
 import (
-	"currency-rates/internal/service/converter/mocks"
-	"currency-rates/pkg/logger"
+	"currency-converter/internal/service/converter/mocks"
+	"currency-converter/pkg/logger"
 	"errors"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"

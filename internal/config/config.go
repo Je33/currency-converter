@@ -1,8 +1,8 @@
 package config
 
 import (
-	"currency-rates/internal/provider/coinmarketcap"
-	"currency-rates/pkg/logger"
+	"currency-converter/internal/provider/coinmarketcap"
+	"currency-converter/pkg/logger"
 	"github.com/pelletier/go-toml/v2"
 	"os"
 	"sync"

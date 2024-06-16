@@ -1,7 +1,7 @@
 package std
 
 import (
-	"currency-rates/pkg/logger"
+	"currency-converter/pkg/logger"
 	"flag"
 	"fmt"
 	"github.com/shopspring/decimal"

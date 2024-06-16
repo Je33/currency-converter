@@ -1,11 +1,11 @@
 package main
 
 import (
-	"currency-rates/internal/config"
-	"currency-rates/internal/provider/coinmarketcap"
-	"currency-rates/internal/service/converter"
-	"currency-rates/internal/transport/std"
-	"currency-rates/pkg/logger"
+	"currency-converter/internal/config"
+	"currency-converter/internal/provider/coinmarketcap"
+	"currency-converter/internal/service/converter"
+	"currency-converter/internal/transport/std"
+	"currency-converter/pkg/logger"
 )
 
 func main() {

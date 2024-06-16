@@ -1,7 +1,7 @@
 package coinmarketcap
 
 import (
-	"currency-rates/pkg/logger"
+	"currency-converter/pkg/logger"
 	"net/http"
 	"time"
 )

@@ -1,7 +1,7 @@
 package coinmarketcap
 
 import (
-	"currency-rates/internal/provider/coinmarketcap/model"
+	"currency-converter/internal/provider/coinmarketcap/model"
 	"encoding/json"
 	"fmt"
 	"github.com/shopspring/decimal"

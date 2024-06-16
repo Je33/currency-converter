@@ -1,7 +1,7 @@
 package converter
 
 import (
-	"currency-rates/pkg/logger"
+	"currency-converter/pkg/logger"
 	"github.com/shopspring/decimal"
 )
 
