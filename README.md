@@ -1,7 +1,7 @@
-# Currency Rates Command Like Tool
+# Currency Converter Command Line Tool
 
-[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/Je33/bestratelimiter)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Je33/bestratelimiter/pipeline.yml?style=flat-square)](https://github.com/Je33/bestratelimiter/actions/workflows/pipeline.yml)
+[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/Je33/currency-converter)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Je33/currency-converter/test.yml?style=flat-square)](https://github.com/Je33/currency-converter/actions/workflows/test.yml)
 
 
 This tool provide the simplest way to get currency rate and convert one currency amount to another 

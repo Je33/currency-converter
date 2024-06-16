@@ -16,14 +16,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # build and publish in parallel: linux/386, linux/amd64, linux/arm64, windows/386, windows/amd64, darwin/amd64, darwin/arm64
-        goos: [ linux, windows, darwin ]
-        goarch: [ "386", amd64, arm64 ]
-        exclude:
-          - goarch: "386"
-            goos: darwin
-          - goarch: arm64
-            goos: windows
+        os:
+          - 'macos-latest'
+          - 'ubuntu-latest'
+          - 'windows-latest'
 
     runs-on: '${{ matrix.os }}'
 
@@ -44,14 +40,16 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # build and publish in parallel: linux/386, linux/amd64, linux/arm64, windows/386, windows/amd64, darwin/amd64, darwin/arm64
-        goos: [ linux, windows, darwin ]
-        goarch: [ "386", amd64, arm64 ]
-        exclude:
-          - goarch: "386"
-            goos: darwin
-          - goarch: arm64
-            goos: windows
+        goos:
+          - 'darwin'
+          - 'freebsd'
+          - 'linux'
+          - 'netbsd'
+          - 'openbsd'
+          - 'solaris'
+          - 'windows'
+        goarch:
+          - 'amd64'
 
     runs-on: 'ubuntu-latest'
 
